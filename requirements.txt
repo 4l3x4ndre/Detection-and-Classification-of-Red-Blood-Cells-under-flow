@@ -1,0 +1,12 @@
+hydra-core
+torch
+termcolor
+scikit-image
+scikit-learn
+jupyter
+ultralytics
+opencv-python
+noise
+timm
+seaborn
+pandas

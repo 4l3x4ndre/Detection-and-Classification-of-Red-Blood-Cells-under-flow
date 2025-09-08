@@ -1,0 +1,11 @@
+path: data/cut_and_paste_GRACE
+train: data/cut_and_paste_GRACE/train
+val: data/cut_and_paste_GRACE/val/
+test: data/cut_and_paste_GRACE/test/
+
+nc: 3
+
+names:
+  0: croissant
+  1: slipper
+  2: other

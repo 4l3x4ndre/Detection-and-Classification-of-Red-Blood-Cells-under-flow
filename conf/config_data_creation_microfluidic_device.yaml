@@ -1,0 +1,41 @@
+paths:
+  root_abs: '/home/alex/dev/python/tx_rbc/tx_shared/'
+  data_from_notebooks: '../data/'
+  constructed_dataset: 'data/constructed_datasets/copy_paste_microfluidic' # OUR CREATED DATASET
+  constructed_dataset_randompos: 'data/constructed_datasets/copy_paste_random_pos' # OUR CREATED DATASET
+  constructed_dataset_test: 'data/constructed_datasets/copy_paste_microfluidic_test' # OUR CREATED DATASET
+
+  liang_2024_from_root: 'data/2024_liang'
+  kihm_2018_from_root:  'data/2018_plos'
+  nouaman_from_root:    'data/2024_nouaman'
+  nouaman_videos_from_root: 'data/videos/nouaman_2024'
+  naples_tif_stack:     'data/tomaiuolo_naples'
+
+dataset_distribution:  # Each dataset need to sum to 100%
+  # eg. assert train_nouaman + test_nouaman + val_nouaman = 100 (%)
+  train_liang     : 10 # percent of Liang that goes in FINAL train dataset 
+  train_nouaman   : 80 # percent of Nouaman that goes in FINAL train dataset
+  train_kihm      : 70 # percent of Kihm that goes in FINAL train dataset
+  
+  test_liang      : 90
+  test_nouaman    : 10
+  test_kihm       : 15
+
+  val_liang       : 0
+  val_nouaman     : 10
+  val_kihm        : 15
+
+factors:
+  noise_fn: [ "none", "gaussian", "salt_pepper", "random" ]
+  croissant_count: [1, 2]
+  slipper_count: [1, 2]
+  object_count: [1, 2]
+  lines: [true, false]
+  artifacts: [true, false]
+  channel_state: ["lighten_channel", "darken_channel", "normal"]
+
+
+parameters:
+  inner_line_space: [40, 75]
+  image_height: 200
+  image_width: 200

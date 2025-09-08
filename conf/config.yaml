@@ -1,0 +1,45 @@
+paths:
+  root_abs: '/home/alex/dev/python/tx_rbc/tx_shared/'
+  data_from_notebooks: '../data/'
+  labelstudio_root_to_remove: '../..'
+  dataset_with_realcells_from_root: 'data/copy_paste_from_real'
+  liang_2024_from_root: 'data/2024_liang'
+  kihm_2018_from_root: 'data/2018_plos'
+  nouaman_from_root:    'data/2024_nouaman'
+  nouaman_annotations_from_root: 'data/saarland/annotations/result.json'
+  nouaman_videos_from_root: 'data/videos/nouaman_2024'
+
+splits: # Each dataset test+train must be equal to 100 (%)
+  liang_2024_split_test:    48 # percent of liang in liang's test split
+  liang_2024_split_train:   48 # percent of liang in liang's train split
+  liang_2024_split_val:     4
+  kihm_2018_split_test:     28 # percent of Kihm data in Kihm's test split
+  kihm_2018_split_train:    68 # percent of Kihm data in Kihm's train split 
+  kihm_2018_split_val:      4
+  nouaman_2024_split_test:  48
+  nouaman_2024_split_train: 48
+  nouaman_2024_split_val:   4
+
+dataset_distribution:  # Each split need to sum to 100%
+  train_liang     : 10 # percent of Liang goes in FINAL train dataset 
+  train_nouaman   : 80 # percent of Nouaman goes in FINAL train dataset
+  train_kihm      : 70 # percent of Kihm goes in FINAL train dataset
+  
+  test_liang      : 90
+  test_nouaman    : 10
+  test_kihm       : 15
+
+  val_liang       : 0
+  val_nouaman     : 10
+  val_kihm        : 15
+
+factors:
+  noise_fn: [ "none", "gaussian", "salt_pepper", "random" ]
+  croissant_count: [3, 4]
+  slipper_count: [3, 4]
+  object_count: [3, 4]
+  walls: [true, false]
+  walls_gray: [true, false]
+  lines: [true, false]
+  artifacts: [true, false]
+

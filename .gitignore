@@ -1,0 +1,9 @@
+**/yolo*.pt
+
+venv/
+
+dataset*.yaml
+
+.ipynb_checkpoints/
+
+**/*.avi
