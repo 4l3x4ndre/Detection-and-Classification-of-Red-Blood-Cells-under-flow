@@ -109,13 +109,13 @@ Notebooks under the `notebooks/` folder:
 
 # Acknowledgement
 
-We would like to thank Prof. Giovanna Tomaiuolo of the Università degli Studi di Napoli Federico II, as well as Prof. Christian Wagner, Lars Kästner, and Mohammed Nouaman of Universität des Saarlandes, for generously sharing their data.
+The authors would like to thank Prof. Giovanna Tomaiuolo and Prof. Stefano Guido of the Università degli Studi di Napoli Federico II; Prof. Christian Wagner, Prof. Lars Kästner, and Dr. Mohammed Nouaman of the Universität des Saarlandes; and Prof. Ye Ai of the Singapore University of Technology and Design for kindly sharing their datasets and granting permission for their use. 
 
-This work was also made possible by the use of the public data of the following works:
+Professors C. Wagner and Y. Ai notably granted us access to the data of the following publications:
 
 -  A. Kihm, L. Kaestner, C. Wagner, and S. Quint, Classification of red blood cell shapes in flow using outlier tolerant
 machine learning, PLoS Computational Biology, vol. 14, no. 6, p. e1006278, 2018. doi:10.1371/journal.pcbi.1006278.
 
 - M. Liang, J. Zhong, C. S. Shannon, R. Agrawal, and Y. Ai, Intelligent image-based deformability assessment of red blood cells via dynamic shape classification, Sensors and Actuators B: Chemical, vol. 401, p. 135056, 2024. doi:10.1016/j.snb.2023.135056
 
-We thank Professors Y. Ai and C. Wagner for granting us permission to use the data from the aforementioned papers.
+The authors also wish to thank Dr. Imad Rida, Ms. Alaa Bou Orm, and Prof. Amine Nait-Ali for their valuable support and for providing the opportunity to present this work at BioSMART—the 6th International Conference on Bioengineering for Smart Technologies.
