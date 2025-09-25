@@ -119,3 +119,19 @@ machine learning, PLoS Computational Biology, vol. 14, no. 6, p. e1006278, 2018.
 - M. Liang, J. Zhong, C. S. Shannon, R. Agrawal, and Y. Ai, Intelligent image-based deformability assessment of red blood cells via dynamic shape classification, Sensors and Actuators B: Chemical, vol. 401, p. 135056, 2024. doi:10.1016/j.snb.2023.135056
 
 The authors also wish to thank Dr. Imad Rida, Ms. Alaa Bou Orm, and Prof. Amine Nait-Ali for their valuable support and for providing the opportunity to present this work at BioSMART—the 6th International Conference on Bioengineering for Smart Technologies.
+
+# Citation
+```
+@article {Amrani2025.09.18.677048,
+	author = {Amrani, A. and Caridi, I. and Kaoui, B.},
+	title = {Deep Learning Detection and Classification of Red Blood Cells: Towards a Universal Dataset},
+	elocation-id = {2025.09.18.677048},
+	year = {2025},
+	doi = {10.1101/2025.09.18.677048},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {We evaluate emerging machine learning models for pattern recognition, focusing on the YOLOv11 architecture for detecting and classifying red blood cell shapes. Our analysis targets two characteristic morphologies observed under flow: slipper and parachute. A key challenge in this task is the development of a robust and diverse dataset. To address this, we employ synthetic image generation using a cut-and-paste approach, introducing variations in cell overlap and arrangements of microfluidic channels disposition to alleviate data scarcity and reduce cross-dataset bias. We generate these datasets with U-Net and Cellpose segmentation models, and rigorously assess YOLOv11 performance on two benchmarks: (i) a controlled dataset for evaluating classification accuracy, and (ii) a challenging, visually heterogeneous dataset for assessing generalization. Results show that the model achieves high precision for distinct cell types in controlled settings, but exhibits reduced performance on the unseen dataset, highlighting a trade-off between specialized accuracy and broad applicability in complex microscopy scenarios.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2025/09/20/2025.09.18.677048},
+	eprint = {https://www.biorxiv.org/content/early/2025/09/20/2025.09.18.677048.full.pdf},
+	journal = {bioRxiv}
+}
+```
